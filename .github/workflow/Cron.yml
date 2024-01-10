@@ -63,7 +63,7 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           name: Rolling RootHide Bootstrap Release
-          body: This is an automatically updated build of the RootHide Bootstrap that fetches from upstream and builds every hour. If this release is on anywhere except https://github.com/dleovl/Bootstrap, it was stolen.
+          body: This is an automatically updated build of the RootHide Bootstrap that fetches from upstream and builds every hour. 
           artifacts: "Bootstrap.tipa"
           tag: release
           token: ${{ secrets.GITHUB_TOKEN }}
