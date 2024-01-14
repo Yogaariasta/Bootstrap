@@ -20,8 +20,8 @@ jobs:
         run: |
           REPO=${{ github.repository }}
   
-          if [ "$REPO" != "dleovl/Bootstrap" ]; then
-            echo "This workflow is only permitted usage for dleovl/Bootstrap repository. Exiting."
+          if [ "$REPO" != "Yogaariasta/Bootstrap" ]; then
+            echo "This workflow is only permitted usage for Yogaariasta/Bootstrap repository. Exiting."
             exit 1
           fi
 
